@@ -24,6 +24,11 @@ Os arquivos das práticas sobre Bancos de Dados orientado a Grafos do professor 
 
 O material sobre banco de dados orientado a Documentos, ainda não foi disponibilizado pelo professor Herwin por uma falta de atenção. Estamos em contato com ele para poder disponibilizar o mais rápido possível.
 
+# **Ferramentas:**
+**Estou encontrando um erro ao rodar o código do "shortest path". Neo4j retorna o erro "There is no procedure with the name `gds.alpha.kShortestPaths.stream` registered for this database instance."**
+
+Este erro se dá pois ao fazer a instalação do Neo4j a Local DBMS padrão, ele cria sempre a versão mais nova baixada. É necessário então setar a versão utilizada pelo professor Herwin (4.2.1).
+
 # **Conceitos e Exercícios:**
 
 **Q: Supondo que, ao passarmos do modelo conceitual para o modelo lógico, optamos por gerar uma tabela própria para um relacionamento; esta nova tabela automaticamente terá pelo menos duas colunas chave estrangeira se referindo a chave primária da tabela &quot;referidora&quot; e a chave primária da tabela referida.**
