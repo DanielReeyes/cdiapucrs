@@ -80,4 +80,16 @@ R: Se executarmos mais de uma vez cada trecho de código (célula), vai acabar c
 
 R: Para o FTr, é possível fazer o ajuste pra ser com base no valor e não em quantile(). Usando como regra o intervalo ]0,1[.
 
-_\*FAQ gerado com base em comentários até o dia 05/12/2021._
+**Q: Em diversos momentos foi falado sobre padronização dos dados. Em um dos momentos até foi trazido a questão do z-score como forma de padronização. A minha dúvida é mais conceitual: o que é a padronização dos dados? Por que ela é feita e como ela pode ser feita?**
+
+R: Quanto ao conceito de padronização dos dados, é uma questão de deixá-los em uma mesma escala, pense que temos variáveis em diferentes unidades, variável A decimal de 0 a 1, variável B de 0 a 1000 entre outros exemplos, dessa maneira, o modelo que você está construindo, pode ter um viés para considerar variáveis com os valores mais altos ou para os menores, dada essa diferença de valores. Dessa maneira há maneiras de padronizar como o z-score onde se subtrai de cada variável sua média, e depois se divide o resultado pelo seu desvio padrão, o min-max entre outras que deixam todos esses valores em uma mesma escala. Um exemplo da min max pode ser visto aqui também: https://learn.64bitdragon.com/articles/computer-science/data-processing/min-max-normalization#:~:text=Min-max%20normalization%20is%20an%20operation%20which%20rescales%20a,also%20called%20the%20lower%20bound%20or%20least%20element
+
+**Q: A normalização é uma aproximação dos dados de uma curva normal. E aí fiquei com uma dúvida: como devemos proceder quando os dados não seguem uma distribuição normal? Se eles seguirem uma distribuição de Weibull, por exemplo, como "estandizar" esses dados?**
+
+R: A normalização vai fazer com que os dados estejam mais homogêneos e em escalas mais justas entre eles (e.g. variável a na casa das dezenas, enquanto variável b na casa das milhares). Existem algumas técnicas como z-score e min-max score que irão fazer esse tipo de normalização.
+
+**Q: No caso, estamos falando de um pequeno volume de dados das reportagens sobre turismo e já começou a ficar um pouco lento. Se estivéssemos analisando uma quantidade maior de informação, qual seria a abordagem para trabalhar com esses dados? A segunda pergunta seria sobre Análise de Sentimento. Há alguma biblioteca como a spacy mas voltada para verificar se um determinado texto é positivo/negativo/neutro? Procurei bastante mas não achei nada em português.** 
+
+R: Quanto maior a quantidade de dados tratados e quanto mais etapas de processamento são necessárias no pipeline, maior a necessidade de recursos (memória, processador e etc..) para processar. Assim, alternativas como computação em nuvem são mais indicadas, para alguns pipelines ainda é possível utilizar o Google Colab ou o Amazon SageMaker. Mas se mesmo assim ficar muito pesado o processamento, alternativas como clusters na nuvem são o mais indicado, e aí é possível utilizarmos Spark com PySpark, R, Scala entre outros. Quanto a bibliotecas para análise de sentimento, não é do meu conhecimento bibliotecas prontas para isso, mas sim algumas que podem te auxiliar na construção de modelos de classificação para posteriormente verificar se o texto é positivo/negativo/neutro. Usando o seu exemplo de biblioteca, deixo dois tutoriais para inspiração do amigo: Natural Language Processing With spaCy in Python – Real Python e Sentiment Analysis with Spacy and Scikit-Learn | Engineering Education (EngEd) Program | Section.
+
+_\*FAQ gerado com base em comentários até o dia 02/03/2022._

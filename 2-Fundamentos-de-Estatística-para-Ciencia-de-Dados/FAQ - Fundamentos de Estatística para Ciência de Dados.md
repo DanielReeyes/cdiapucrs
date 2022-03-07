@@ -152,4 +152,17 @@ R: Nesse caso, é possível utilizar variáveis do tipo numéricas como a de ida
 
 R: O material online ainda está sendo elaborado, portanto ainda não tenho todas as soluções. Nesse caso ao longo das resoluções o professor irá atualizando o material. As respostas que contém estão a partir da página 140 do material [http://filipezabala.com/materiais/ecnrs.pdf](http://filipezabala.com/materiais/ecnrs.pdf) .
 
-_\*FAQ gerado com base em comentários até o dia 05/12/2021._
+**Q: A Curva Laffer representação o % versus o tempo, correto? No exemplo da aula o X esta representando o tempo e o Y esta representando o %, pode ser o inverso?**
+
+R: Sim.
+
+**Q: Na parte de Tabela de frequência univariada contínua estou com uma dúvida. Há um trecho que mostra a tabela agrupada pela regra de Sturges. Entendi como achar em quantos grupos como a regra sugere dividir porém, não entendi como achar quais os grupos em si.**
+**Por exemplo, na tabela mostrada há os valors: 1.50 ⊢ 1.55, 1.55 ⊢ 1.60, etc... Não localizei onde fala sobre como definir quais devem ser as classes de amplitude.**
+
+R: Sobre a amplitude referida, é a Amplitude de classes, e é explicada em "Amplitude (h) e quantidade (k) de classes" que utiliza a amplitude das amostras também. 
+
+**Q: Sobre o exercício 2.2.Considere o conjunto de dados  10,−4,5,7,1,3,9.A. Obtenha o rol Levando em consideração que o ROL é a ordenação dos dados coletados em ordem crescente ou decrescente, quando não é explicito na questão qual ordenação deve-se realizar?**
+
+R: Geralmente se usa em ordenação ascendente.
+
+_\*FAQ gerado com base em comentários até o dia 02/03/2022._

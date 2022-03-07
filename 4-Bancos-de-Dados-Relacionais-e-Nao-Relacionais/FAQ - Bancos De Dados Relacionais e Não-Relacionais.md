@@ -61,12 +61,16 @@ R: No Cassandra não tem como consultar um dado deletado. Ele cria o _tombstone_
 
 Teria que verificar se tem como desabilitar a compactação, mas acabaria perdendo performance até ficar uma base muito inchada. Para utilizar como histórico, seria melhor a criação de um campo de _deleted_ (_boolean_).
 
-**Q: Olá estou tentando executar o script mas ocorre esse erro:** _**gds.alpha.kShortestPaths.streamThere is no procedure with the name `gds.alpha.kShortestPaths.stream` registered for this database instance. Please ensure you&#39;ve spelled the procedure name correctly and that the procedure is properly deployed**_
-
-R: A princípio essa mensagem indica que há um erro na Procedure que foi declarada.
-
 **Q: Qual a relação possível em um grafo do tipo multigrafo?**
 
 R: O professor Herwin é claro em sua explicação durante a parte 01 da aula 02, ao minuto 21 quando explica os tipos de grafos. Quando dizemos multigrafo nos referimos aos casos em que o vértice pode ter mais de 1 saída ou entrada. Quando nos referimos a grafo, aí sim entram os autos relacionamentos. A mesma questão também se encontra elucidada no livro da disciplina, na página 16, parte 1 da aula 2
 
-_\*FAQ gerado com base em comentários até o dia 05/12/2021._
+**Q: Fiquei com uma dúvida referente a chave artificial que o professor explicou na última parte da aula 04. Quando crio uma chave artificial eu deixo de utilizar a composição de chaves que haviam dispostos no modelo anterior com um conjunto de colunas que mantinha a integridade tanto dos dados quanto das associações entre astabelasNão perco esta referência? Ou seja, não corro o risco de ter conteúdo duplicado nas outras colunas?**
+
+R: Como o professor Júlio indicou, não há nenhum demérito em ter as chaves primárias compostas por várias partes (colunas) mas, para simplificar a leitura das chaves e relacionamentos podemos utilizar\criar uma coluna "extra" para ser apenas a chave primária que geralmente é um identificador único. Mas note que ele indica que muitas vezes sabe que as demais colunas também permanecem candidatas e que de acordo com o negócio, ele sabe que a composição permanece única. Essa chave primária artificial é utilizada para colocar de forma genérica a chave primária de uma entidade, pois uma chave natural pode se tornar muito complexa, impactando em termos de performance no banco de dados. Mas usando um atributo artificial na chave primaria podemos vir a repetir varias vezes as mesmas colunas, mas não seria possível ter o registro (linha) todo repetido, pois essa chave primária será auto-incremental.
+
+**Q: Gostaria de saber mais sobre como se enquadra o "CockroachDB", já que ele é tanto um noSQL como também um SQL transacional.**
+
+R: O CockroachDB é um banco de dados SQL que pode escalar horizontalmente. Se você precisa para suportar maiores volumes, você pode simplesmente adicionar mais máquinas. Com CockroachDB, os servidores replicam automaticamente e reequilibrar-se, que mantém o seu sistema disponível à medida que cresce e evolui. Ele  busca oferecer o mesmo desempenho escalável dos bancos NoSQL, para cargas de trabalho OLTP read-write, mantendo as garantias das propriedades ACID em suas transações.
+
+_\*FAQ gerado com base em comentários até o dia 02/03/2022._

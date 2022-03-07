@@ -12,7 +12,11 @@ R: Esse livro é possível achar em sua versão para o idioma inglês, pelo site
 
 **Q: O Link da máquina de seleções de tomate é privativo.**
 
-Este vídeo mostra a mesma ideia https://www.youtube.com/watch?v=aYQ\_5c6m8Is
+R: Este vídeo mostra a mesma ideia https://www.youtube.com/watch?v=aYQ\_5c6m8Is
+
+**Q: Não estou conseguindo acesso ao papaer _Advances in natural language processing_ pois parece estar bloqueado exigindo algum tipo de subscrição.**
+
+R: Caso não consiga acesso via ícone de folha a4 da disciplina no Sala Virtual, o artigo pode ser acessado via GitHub.
 
 # **Ferramentas :**
 
@@ -138,4 +142,4 @@ Logo, agrupamento não deve ser a primeira tarefa a ser executada. O mais corret
 
 E, por fim, aplicar algoritmos de sumarização nos grupos gerados, filtrados por data.
 
-_\*FAQ gerado com base em comentários até o dia 05/12/2021._
+_\*FAQ gerado com base em comentários até o dia 02/03/2022._

@@ -68,4 +68,8 @@ Valor para a classe Benign: 0.5 / 1.302 = 0.3840 (38.40%)
 
 Valor para a classe Malignant: (0.448 + 0.354) / 1.302 = 0.6159 (61.59%)
 
-_\*FAQ gerado com base em comentários até o dia 29/11/2021._
+**Q: Professor, eu sempre posso utilizar a matriz de confusão como acurácia? para qualquer caso?imagino que nos casos com poucos dados, mas é sempre confiável usá-la?**
+
+R: A matriz de confusão em si não é uma métrica, mas sim um mecanismo usado para extrair informações sobre as saídas do modelo e extrair métricas de desempenho a partir disto. Como discutimos em aula, as métricas que devem ser usadas dependem de uma análise do contexto do problema. Por exemplo, se as classes do problema estão balanceadas, seria viável utilizar a acurácia. Mas é possível extrair outras medidas à partir da matriz de confusão, como precisão, revocação, etc.
+
+_\*FAQ gerado com base em comentários até o dia 02/03/2022._
