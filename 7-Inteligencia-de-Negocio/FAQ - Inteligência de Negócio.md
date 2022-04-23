@@ -28,4 +28,4 @@ Um arquivo CSV listará todas as ocorrências por completo, o que ocupa muito ma
 
 R: É consenso na literatura que a área de Ciência de Dados abrange amplo espectro de aplicações, reunindo sob si inúmeras outras áreas mais específicas. O conhecimento dessa abrangência é de fundamental importância para os profissionais que escolhem essa área, visto que, na maior parte dos casos, as estratégias para implementação de projetos relacionados à Ciência de Dados devem contemplar atividades em diversas dessas sub-áreas, como é o caso da Arquitetura e Gerência de Bancos de Dados.
 
-_\*FAQ gerado com base em comentários até o dia 02/03/2022._
+_\*FAQ gerado com base em comentários até o dia 21/04/2022._

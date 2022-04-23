@@ -21,4 +21,8 @@ No aprendizado por reforço, o sistema de inteligência artificial enfrenta uma 
 
 Também na Aula 3, o professor Thomas traz alguns exemplos desse tipo de aprendizado. Um exemplo prático de aprendizado por reforço seria aprender a sequência de movimentos que um braço robótico deve realizar para conseguir pegar um objeto, ou a sequência de movimentos que um jogador de um determinado jogo deve realizar para completar uma fase.
 
-_\*FAQ gerado com base em comentários até o dia 02/03/2022._
+**Q: Quanto ao exemplo 1.2.kmedoids_1, gostaria de alertar que a sklearn-extra não está previamente instalada no google colab**
+
+R: É preciso utilizar o comando de instalação antes da execução.'pip install scikit-learn-extra'
+
+_\*FAQ gerado com base em comentários até o dia 21/04/2022._

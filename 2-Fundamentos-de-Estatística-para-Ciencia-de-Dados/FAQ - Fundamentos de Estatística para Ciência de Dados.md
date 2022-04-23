@@ -22,6 +22,10 @@ R: O professor Zabala acessa uma apostila de estatística clássica, que se enco
 
 R: O material online ainda está sendo elaborado, portanto ainda não tenho todas as soluções. Nesse caso ao longo das resoluções o professor irá atualizando o material.
 
+**Q: O Link para o livro do John Neter está quebrado. Há outro lugar que disponibilize o livro?**
+
+R: Realmente o link externo foi removido, mas o link da UNICAMP disponibiliza o livro: https://www.ime.unicamp.br/~dias/John%20Neter%20Applied%20linear%20regression%20models.pdf?msclkid=66aaa682b8d011ec8f4cfa591ce1539b. 
+
 # **Ferramentas:**
 
 **Q: Ao utilizar o R é necessário instalar pacotes adicionais para determinadas funções?**
@@ -165,4 +169,4 @@ R: Sobre a amplitude referida, é a Amplitude de classes, e é explicada em "Amp
 
 R: Geralmente se usa em ordenação ascendente.
 
-_\*FAQ gerado com base em comentários até o dia 02/03/2022._
+_\*FAQ gerado com base em comentários até o dia 21/04/2022._

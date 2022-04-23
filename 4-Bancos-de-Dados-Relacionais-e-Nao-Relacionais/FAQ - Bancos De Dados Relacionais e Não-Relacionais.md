@@ -73,4 +73,9 @@ R: Como o professor Júlio indicou, não há nenhum demérito em ter as chaves p
 
 R: O CockroachDB é um banco de dados SQL que pode escalar horizontalmente. Se você precisa para suportar maiores volumes, você pode simplesmente adicionar mais máquinas. Com CockroachDB, os servidores replicam automaticamente e reequilibrar-se, que mantém o seu sistema disponível à medida que cresce e evolui. Ele  busca oferecer o mesmo desempenho escalável dos bancos NoSQL, para cargas de trabalho OLTP read-write, mantendo as garantias das propriedades ACID em suas transações.
 
-_\*FAQ gerado com base em comentários até o dia 02/03/2022._
+**Q: Gostaria de saber se o Neo4j é adequado para modelos em redes de Petri. No caso das redes de Petri é preciso que se insira uma ficha (valor da entidade e uma transição), os arcos podem conter valor. Acham que é possível?**
+
+R: Sim, o Neo4J suporta em sua linguagem de modelagem e consulta a estrutura de grafos associada a uma Rede de Petri. Claro que estamos falando no modelo estático, sem a "execução" da rede, o que seria feito externamente ao banco de dados. Aqui há algumas referências que mencionam o uso do Neo4J para armazenamento de dados associados a Redes de Petri: https://www.hindawi.com/journals/misy/2021/5988742/
+https://mountainscholar.org/bitstream/handle/10217/195323/Basnet_colostate_0053N_15363.pdf
+
+_\*FAQ gerado com base em comentários até o dia 21/04/2022._

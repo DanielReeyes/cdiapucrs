@@ -86,4 +86,12 @@ R: Na literatura não há nada que delimite o que é um grande volume de dado e 
 
 R: Nesse caso, você deve estar utilizando a versão 1.0.2, que é a última versão estável do scikit-learn, conforme a documentação da biblioteca: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression . Também como visto na documentação, esse é um Warning (aviso) de que esse parâmetro foi deprecado e que será REMOVIDO nas próximas versões 1.1.x. Assim, a mensagem que você recebeu é o warning apenas e seu código funciona conforme a imagem que anexo neste comentário do código que repliquei no Google Colab. Podes reparar que há uns checkzinhos verdes de execução com sucesso, mesmo tendo o warning. Caso queira que a mensagem não apareça, você pode  forçar a instalação de versões anteriores do scikit-learn, que irá funcionar também.
 
-_\*FAQ gerado com base em comentários até o dia 02/03/2022._
+**Q: Vendo a aula sobre arvores de decisão e radom forest o professor diz que é uma maneira de explicar a decisão tomada, certo? Então não seria possível utilizar arvores de decisão para a explicação no caso do tribunal ao final da aula?**
+
+R: Sim, as árvores de decisão têm um bom poder de explicação para nos indicar quais parâmetros foram cruciais para aquela tomada de decisão. Nesse caso do tribunal, é possível sim que as árvores possam auxiliar no entendimento do algoritmo, dependendo das features utilizadas para o treinamento do modelo.
+
+**Q: O Numpy é uma biblioteca para armazenamento de dados do mesmo tipo, certo? Já o pandas aceita tipos diferentes de dados a cada coluna. Caso a tabela em que os dados estejam armazenados forem todas do mesmo tipo de dado, por exemplo inteiro, utilizaria-se o Numpy no lugar do pandas? ou ainda sim seria melhor utilizar o pandas?**
+
+R: O Numpy na verdade foi concebido para manipulação de arrays (multidimensionais (ndarrays) ou não), vetores, listas e etc.. Já o pandas ele vai te permitir trabalhar com dataframes, ou seja, conjuntos de dados de diferentes formatos (string, boolean, numérico entre outros). O Numpy vai permitir por exemplo operações rápidas para tratamento e limpeza de dados dentro de dataframes Pandas.
+
+_\*FAQ gerado com base em comentários até o dia 21/04/2022._

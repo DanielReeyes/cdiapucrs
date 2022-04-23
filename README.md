@@ -2,7 +2,7 @@
 
 Repositório destinado aos materiais para reunir as dúvidas recorrentes entre os alunos do Curso de Especialização em Ciencia de Dados e Inteligência Artificial da Universidade Pontifícia Universidade Católica - PUCRS.
 
-Atualmente há 12 disciplinas disponíveis aos alunos, este material contempla essas 12 disciplinas por terem gerado comentários. São elas:
+Atualmente as 12 disciplinas estão disponíveis aos alunos, este material contempla todas elas por terem gerado comentários. São elas:
 
 - Introdução à Ciência de Dados e à Inteligência Artificial
 - Fundamentos de Estatística para Ciência de Dados
@@ -17,5 +17,4 @@ Atualmente há 12 disciplinas disponíveis aos alunos, este material contempla e
 - Visualização de Dados
 - Machine Learning II: Aprendizado Não Supervisionado
 
-
-Ao longo do curso, novas disciplinas serão disponibilizadas, e novos comentários serão respondidos e contemplarão este material.
+Ao longo do curso novos comentários serão respondidos e contemplarão este material.

@@ -8,9 +8,15 @@ R: O material de apoio consta no ícone de folha a4 ao lado do título da discip
 
 R: Na parte 03 da aula 06, a professora Alessandra utilizou os mesmos dados de inbound da unesco, então ela utilizou o notebook disponibilizado na aula 05 entitulado de 'codigo_t5_atividade_unesco'. 
 
+**Q: Para a atividade final (atividade prática com Python, dados do Instituto UNESCO) não há link ou arquivo anexo da base de dados para realização.**
+
+R: A base utilizada é a mesma utilizada na aula 05, na seção de materiais (folha a4) da aula 05 consta o arquivo CSV "total_inbound_outbound_gdp.cSV". 
+
 # **Ferramentas:**
 
-Não houve comentários sobre ferramentas até a data de geração deste FAQ.
+**Q: Muito interessante os gráficos de estabilidade de clustering que mostram o posicionamento das mesmas amostras considerando diferentes números de clustering em forma de ligação (+- minuto 17 da aula). Existe algum nome específico pra esses gráficos? Tem algum script de referência para produzir gráficos assim?**
+
+R: Talvez seja possível gerar um gráfico semelhante usando diagrama de Sankey (exemplo em https://plotly.com/python/sankey-diagram/).
 
 # **Conceitos e Exercícios:**
 

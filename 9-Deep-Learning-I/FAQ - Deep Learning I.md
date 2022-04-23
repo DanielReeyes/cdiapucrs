@@ -4,7 +4,17 @@
 
 R: O material de apoio consta no ícone de folha a4 ao lado do título da disciplina. O material prático da disciplina se encontrará como uma aula extra também no menu ao lado esquerdo da Sala Virtual.
 
+**Q: Há material prático para esta disciplina?**
+
+R: Sim, o professor Martin elaborou uma aula extra para aplicar os conceitos vistos em aula de forma prática utilizando alguns algoritmos em Python. O material encontra-se disponível no icone A4 ao lado do título da disciplina, na aula extra.
+
 # **Ferramentas:**
+
+**Q: Como usar os arquivos .py (utils e visualization) no Colab?**
+
+R: você não vai conseguir executar os arquivos .py DIRETAMENTE no Colab ou Jupyter como podemos fazer por exemplo com a IDE Spyder. O professor Martin utiliza os arquivos .py de forma a persistir algumas funções, dessa maneira, ele IMPORTA os arquivos .py (ao executar as linhas de comando: # implementação local
+import utils
+import visualization as vis). Dessa maneira ele não precisa "sujar" o notebook com códigos que são de funções auxiliares. Espero ter lhe ajudado, qualquer coisa por favor me avise.
 
 # **Conceitos e Exercícios:**
 
@@ -40,4 +50,8 @@ O campo receptivo dessa forma, aumenta conforme a profundidade da rede, mesmo qu
 
 Assim, a Rede Neural consegue preservar as correlações entre pixels vizinhos da imagem, pois atua sobre esses campos receptivos locais realizando o processo de convolução. Dessa forma, consegue-se reduzir a sensibilidade à translação, rotação e distorção das imagens.
 
-_\*FAQ gerado com base em comentários até o dia 02/03/2022._
+**Q: No vídeo da parte 1, minuto 43:04 foi comentado sobre retropropagar os gradientes, para ajustar o modelo. E em seguida no vídeo 4 da aula 4, também vimos sobre o processo de transferência e que algumas camadas são congeladas no transfer learning. A dúvida é: Quando a gente fizer a retropropagação dos gradientes, faremos apenas das camadas não congeladas ou faremos para todas as camadas?**
+
+R: Quando dizemos que uma camada está "congelada", isso significa que os pesos desta camada não sofrerão atualizações. Se, por algum motivo, houverem camadas não-congeladas antes da camada congelada (e.g., NC -> C -> NC, onde C = congelada, NC = não-congelada), temos que retropropagar os gradientes até que cheguem em todas as camadas não-congeladas (mas isto não implica em atualizar as camadas congeladas, estamos apenas usando os resultados de suas operações e a derivada da função para saber a contribuição de cada um dos pesos da camada não-congelada). Dito isto, não é comum congelar somente camadas intermediárias do modelo, mas sim congelar as camadas do início do processamento até o fim (e.g., C -> C -> NC ,ou C -> NC -> NC).
+
+_\*FAQ gerado com base em comentários até o dia 21/04/2022._

@@ -4,6 +4,10 @@
 
 R: O material de apoio consta no ícone de folha a4 ao lado do título da disciplina.
 
+**Q: Há material prático para esta disciplina?**
+
+R: Sim, o professor Martin elaborou uma aula extra para aplicar os conceitos vistos em aula de forma prática utilizando alguns algoritmos em Python. O material encontra-se disponível no icone A4 ao lado do título da disciplina, na aula extra.
+
 # **Ferramentas:**
 
 # **Conceitos e Exercícios:**
@@ -72,4 +76,14 @@ Valor para a classe Malignant: (0.448 + 0.354) / 1.302 = 0.6159 (61.59%)
 
 R: A matriz de confusão em si não é uma métrica, mas sim um mecanismo usado para extrair informações sobre as saídas do modelo e extrair métricas de desempenho a partir disto. Como discutimos em aula, as métricas que devem ser usadas dependem de uma análise do contexto do problema. Por exemplo, se as classes do problema estão balanceadas, seria viável utilizar a acurácia. Mas é possível extrair outras medidas à partir da matriz de confusão, como precisão, revocação, etc.
 
-_\*FAQ gerado com base em comentários até o dia 02/03/2022._
+**Q: Como calculo via código as outras medidas de avaliação como: precision, recall e F-mesure?**
+
+R: Nesse caso, você pode utilizar uma biblioteca do scikit-learn mesmo, que você passa o label predito e o label real e a lib mesmo lhe calculará. Segue o link da mesma caso queira tentar: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html
+
+Complementando: o y_true você já possui, pois é o array contendo os rótulos do seu conjunto de TESTE\VALIDAÇÃO. O y_pred se refere ao array com as PREDIÇÕES do seu modelo treinado anteriormente (classifier.fit). Nesse caso, você precisa fazer a predição agora com seu conjunto de dados de validação\teste chamando o método predict do seu modelo. Esse método retornará um array de resultados que será o seu y_pred. 
+
+**Q: Nos slides da aula 02, há referencia a bibliografia:[Mitchell 1997] Capítulo 1, [Tan et al. 2006] Capítulo 1, mas sem os nomes específicos dos livros em questão estou tendo dificuldade de encontrar o material.**
+
+R: Quanto a referência de Mitchell 1997 é: Mitchell, Tom M. 1997. Machine Learning. First. McGraw-Hill Science/Engineering/Math. (https://www.cin.ufpe.br/~cavmj/Machine%20-%20Learning%20-%20Tom%20Mitchell.pdf) A referência de Tan et al. 2006 é sobre o livro de Tan "Introduction to Data Mining" (https://www-users.cse.umn.edu/~kumar001/dmbook/sol.pdf)
+
+_\*FAQ gerado com base em comentários até o dia 21/04/2022._

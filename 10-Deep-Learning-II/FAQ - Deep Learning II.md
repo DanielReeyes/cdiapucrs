@@ -27,4 +27,8 @@ Dessa forma, na imagem existem duas váriaveis que não temos como ter certeza d
 
 R: O e-mail é encarado como não estruturado quando não temos nenhumaideia de sua estrutura, a imagem de um celular possui um certo nível de informação estruturada, como por exemplo as imagens do celular que possuem tags com informação de resolução, geolocalização, etc. 
 
-_\*FAQ gerado com base em comentários até o dia 02/03/2022._
+**Q: Conceito de cluster na tela (inserido no vídeo) está errado no tempo 39:00**
+
+R: Foi descrito o cluster de computação em nuvem ao invés do agrupamento de documentos (cluster de documento).
+
+_\*FAQ gerado com base em comentários até o dia 21/04/2022._

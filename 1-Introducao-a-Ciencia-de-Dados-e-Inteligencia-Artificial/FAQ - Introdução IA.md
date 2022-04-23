@@ -18,6 +18,15 @@ R: Este vídeo mostra a mesma ideia https://www.youtube.com/watch?v=aYQ\_5c6m8Is
 
 R: Caso não consiga acesso via ícone de folha a4 da disciplina no Sala Virtual, o artigo pode ser acessado via GitHub.
 
+**Q: Durante as partes 3 e 4 da aula do professor Michael, é mostrado que a Inteligência Artificial tem também esta abordagem que não usa dados, que é a abordagem que considera agentes, algoritmos de busca, planejamentos progressivo e regressivo etc.. 
+Estes conceitos serão aprofundados mais aprofundados?**
+
+R: Estes conceitos na verdade foram citados com o objetivo de nos deixar cientes que existem outras formas de utilizar a IA independente de dados mas o foco do curso de Especialização é na área de dados.
+
+**Q: Qual profundidade eu preciso estudar a bibliografia complementar como os livros de Russel e Norvig para cumprir os requisitos desta disciplina?**
+
+R: Estudar os livros da disciplina sempre são grande valia mas as aulas dos professores cobrem os assuntos da disciplina e do exame. A literatura complementar serve também para aprofundar os seus conhecimentos em determinados tópicos que você viu na aula e que acha interessante para o seu contexto.
+
 # **Ferramentas :**
 
 **Q:**  **A linguagem R será abordada com maior ênfase durante a continuação do curso?**
@@ -142,4 +151,4 @@ Logo, agrupamento não deve ser a primeira tarefa a ser executada. O mais corret
 
 E, por fim, aplicar algoritmos de sumarização nos grupos gerados, filtrados por data.
 
-_\*FAQ gerado com base em comentários até o dia 02/03/2022._
+_\*FAQ gerado com base em comentários até o dia 21/04/2022._
