@@ -1,0 +1,6 @@
+/opt
+total 28
+drwxr-xr-x 1 root  root  4096 Feb  5  2018 .
+drwxr-xr-x 1 root  root  4096 Mar 17 13:48 ..
+drwxr-xr-x 1 20415 input 4096 Feb  5  2018 hadoop-2.7.4
+drwxr-xr-x 1 root  root  4096 Feb  5  2018 hive
