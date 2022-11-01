@@ -18,3 +18,4 @@ Atualmente as 12 disciplinas estão disponíveis aos alunos, este material conte
 - Machine Learning II: Aprendizado Não Supervisionado
 
 Ao longo do curso novos comentários serão respondidos e contemplarão este material.
+Obrigado!
