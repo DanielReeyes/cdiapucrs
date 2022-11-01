@@ -1,6 +1,6 @@
-# Especialização em Ciencia de Dados e Inteligência Artificial - PUCRS
+# Especialização em Ciência de Dados e Inteligência Artificial - PUCRS
 
-Repositório destinado aos materiais para reunir as dúvidas recorrentes entre os alunos do Curso de Especialização em Ciencia de Dados e Inteligência Artificial da Universidade Pontifícia Universidade Católica - PUCRS.
+Repositório destinado aos materiais para reunir as dúvidas recorrentes entre os alunos do Curso de Especialização em Ciência de Dados e Inteligência Artificial da Universidade Pontifícia Universidade Católica - PUCRS.
 
 Atualmente as 12 disciplinas estão disponíveis aos alunos, este material contempla todas elas por terem gerado comentários. São elas:
 
