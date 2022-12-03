@@ -14,6 +14,10 @@ Aqui tem um documento bem legal que traz uma discussão exatamente como a lança
 
 Traz alguns prós de _hard code_ como o que você mantém e prós da utilização de ferramentas de ETL.
 
+**`Q: Qual o nome do plugin que o professor fala, que consigo converter esquemas conceituais para lógico relacional? Min. 43:02`**
+
+`R: Esse plug-in é distribuído embarcado na versão Astah Professional. Ele pode ser acionado a partir do menu “Tools”, item “ER Diagram”. "Também pode ser acessado clicando com o botão direito sobre o Esquema Conceitual (Diagrama de Classes), escolhendo a opção “Convert to ER Diagram”.`
+
 **Conceitos e Exercícios:**
 
 **Q: Pude observar aos 46min15s da parte 1 da aula que o arquivo itens\_pedidos.csv ocupa 9 MB e o itens\_pedidos.xlsx ocupa 4,5 MB. Me chamou a atenção que o arquivo excel ocupa metade do arquivo csv para os mesmos dados, achei curioso! Isto é um comportamento padrão? Poderia por gentileza explicar como pode esta diferença tão significativa?**
@@ -28,4 +32,4 @@ Um arquivo CSV listará todas as ocorrências por completo, o que ocupa muito ma
 
 R: É consenso na literatura que a área de Ciência de Dados abrange amplo espectro de aplicações, reunindo sob si inúmeras outras áreas mais específicas. O conhecimento dessa abrangência é de fundamental importância para os profissionais que escolhem essa área, visto que, na maior parte dos casos, as estratégias para implementação de projetos relacionados à Ciência de Dados devem contemplar atividades em diversas dessas sub-áreas, como é o caso da Arquitetura e Gerência de Bancos de Dados.
 
-_\*FAQ gerado com base em comentários até o dia 21/04/2022._
+_\*`FAQ gerado com base em comentários até o dia 30/11/2022.`_

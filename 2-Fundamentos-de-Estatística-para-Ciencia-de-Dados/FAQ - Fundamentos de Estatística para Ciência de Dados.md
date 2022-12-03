@@ -26,6 +26,16 @@ R: O material online ainda está sendo elaborado, portanto ainda não tenho toda
 
 R: Realmente o link externo foi removido, mas o link da UNICAMP disponibiliza o livro: https://www.ime.unicamp.br/~dias/John%20Neter%20Applied%20linear%20regression%20models.pdf?msclkid=66aaa682b8d011ec8f4cfa591ce1539b. 
 
+**`Q: No material do professor o link para o paper "Birnbaum's Theorem Redux" está quebrado.`**
+
+`R: Por algum erro de encoding do "~" (tilde) na url. A url correta é essa: https://www.ime.usp.br/~pmarques/papers/redux.pdf`
+
+**`Q: Qual o link para o Artigo " A doutrina das chances"?`**
+
+`R: Podes acessar aqui: 
+https://www.ias.ac.in/article/fulltext/reso/008/04/0080-0088
+Para maiores informações, veja o material do professor Zabala: https://filipezabala.com/eb/inferencia-bayesiana.html`
+
 # **Ferramentas:**
 
 **Q: Ao utilizar o R é necessário instalar pacotes adicionais para determinadas funções?**
@@ -169,4 +179,8 @@ R: Sobre a amplitude referida, é a Amplitude de classes, e é explicada em "Amp
 
 R: Geralmente se usa em ordenação ascendente.
 
-_\*FAQ gerado com base em comentários até o dia 21/04/2022._
+`**Q: Boa noite, Professor!A respeito do exercício classificação das variáveis, falando mais especificamente da letra E, que diz sobre uma lista de editoras de livros. Neste caso, o exemplo poderia ser tanto qualitativo nominal quanto ordinal?**`
+
+`R: Editora de livros seria mais uma quantitativa nominal visto que esta não possui nenhum outro tipo de informação permitindo apenas a avaliação de frequências e ordenações arbitrárias (como alfabética ou algo do tipo). Se assemelha muito ao exemplo 2.1 do time de futebol.`
+
+_\*`FAQ gerado com base em comentários até o dia 30/11/2022.`_

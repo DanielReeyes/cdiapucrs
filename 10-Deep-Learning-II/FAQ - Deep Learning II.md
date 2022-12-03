@@ -31,4 +31,8 @@ R: O e-mail é encarado como não estruturado quando não temos nenhumaideia de 
 
 R: Foi descrito o cluster de computação em nuvem ao invés do agrupamento de documentos (cluster de documento).
 
-_\*FAQ gerado com base em comentários até o dia 21/04/2022._
+**`Q: Estou com dificuldade em realizar a aplicação da ferramenta word2vec para o que eu preciso. Já entendi o conceito por tras do algoritmo, mas ainda não consigo entender como aplicar isso para classificar os documentos de patentes que tenho.`**
+
+`R: Na verdade o Word2Vec só irá transpor tuas sentenças todas para forma de representações numéricas de acordo com um critério como a frequência de palavras e etc. O Word2Vec vai transformar a sentença para INPUTs do seu modelo classificador. Nesse caso é possível usar uma árvore de decisão, regressão linear ou qualquer outro classificador.`
+
+_\*`FAQ gerado com base em comentários até o dia 30/11/2022.`_

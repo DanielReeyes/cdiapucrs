@@ -16,6 +16,10 @@ O professor Mangan utilizou a tradução automática gerada pelo programa Tradut
 
 [https://translate.google.com/translate?sl=en&amp;tl=pt&amp;u=https://scipy-lectures.org](https://translate.google.com/translate?sl=en&amp;tl=pt&amp;u=https://scipy-lectures.org)
 
+**`Q: Não achei o link para o colab do professor Maurício Seiji, fica fixado onde?`**
+
+`R: odas as práticas do professor Seiji ele utiliza o google colab. Os arquivos CSV estão no Drive também, que ele indica o link, por exemplo no material da aula 1 na página 23 há a linha Dados. Na página 28 outra linha Dados.`
+
 # **Ferramentas:**
 
 **Q: Nos instantes 37:40 e 49:50 da parte 2 da aula 2 o professor cita duas bibliotecas, uma para a área de teste e outra para área de reconhecimento de voz. Há algum link que forneça mais informações sobre estas duas ferramentas?**
@@ -94,4 +98,27 @@ R: Sim, as árvores de decisão têm um bom poder de explicação para nos indic
 
 R: O Numpy na verdade foi concebido para manipulação de arrays (multidimensionais (ndarrays) ou não), vetores, listas e etc.. Já o pandas ele vai te permitir trabalhar com dataframes, ou seja, conjuntos de dados de diferentes formatos (string, boolean, numérico entre outros). O Numpy vai permitir por exemplo operações rápidas para tratamento e limpeza de dados dentro de dataframes Pandas.
 
-_\*FAQ gerado com base em comentários até o dia 21/04/2022._
+**`Q: O teste de hipótese só pode ser feito para amostras de distribuição normal, certo? Caso não seja normal como eu prossigo? Como posso ter certeza que a distribuição é normal?`**
+
+`R: É possível fazer teste de hipótese pra qualquer distribuição de probabilidade. Dada a segunda pergunta, depende muito da variável que você deseja testar, mas assumindo por exemplo uma variável do tipo contínua, é possível utilizar o teste shapiro wilk. Também há testes como kolmogorov-smirnov que serve para outros tipos de variáveis também.`
+
+**`Q: Não entendi a questão da indexação e corte (indexing slicing) quanto a coordenada do elemento. O python começa a contar a partir do 0 (zero) então uma lista de 3 elementos seria algo como [0, 1 ,2 ]. Com uso do Numpy usando o range o vetor teria os elementos [1, 2 ,3] ?`**
+
+`R: Tanto a lista quanto o array (Numpy ou não) irão iniciar no index (coordenada) 0. Os valores você pode estipular, usando o arange da biblioteca Numpy você estabelece o valor inicial e final, mas irá iniciar na coordenada\índice 0.`
+
+**`Q: Não entendi nada sobre o download do scikit learn/Logistic Regression.`**
+
+`R: Sobre o download do scikit learn: O scikit learn é uma biblioteca Python pronta para utilização, você só importa para o seu código e utiliza os métodos dos objetos e etc.`
+
+**`Q: Se ao executar a atividade 'Agrupamento K-means' e apresentou o erro "ModuleNotFoundError: No module named 'sklearn.datasets.samples_generator'"`**
+
+`R: Altere
+DE:
+from sklearn.datasets.samples_generator
+import make_blobs
+PARA:
+fromsklearn.datasets
+import make_blobs
+Fonte: https://stackoverflow.com/questions/65898399/no-module-named-sklearn-datasets-samples-generator `
+
+_\*`FAQ gerado com base em comentários até o dia 30/11/2022.`_

@@ -22,4 +22,4 @@ R: Talvez seja possível gerar um gráfico semelhante usando diagrama de Sankey 
 
 Não houve comentários sobre conceitos explicados ou exercícios práticos demonstrados durante as aulas até a data de geração deste FAQ.
 
-_\*FAQ gerado com base em comentários até o dia 02/03/2022._
+_\*`FAQ gerado com base em comentários até o dia 30/11/2022.`_

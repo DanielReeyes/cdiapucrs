@@ -54,4 +54,8 @@ Assim, a Rede Neural consegue preservar as correlações entre pixels vizinhos d
 
 R: Quando dizemos que uma camada está "congelada", isso significa que os pesos desta camada não sofrerão atualizações. Se, por algum motivo, houverem camadas não-congeladas antes da camada congelada (e.g., NC -> C -> NC, onde C = congelada, NC = não-congelada), temos que retropropagar os gradientes até que cheguem em todas as camadas não-congeladas (mas isto não implica em atualizar as camadas congeladas, estamos apenas usando os resultados de suas operações e a derivada da função para saber a contribuição de cada um dos pesos da camada não-congelada). Dito isto, não é comum congelar somente camadas intermediárias do modelo, mas sim congelar as camadas do início do processamento até o fim (e.g., C -> C -> NC ,ou C -> NC -> NC).
 
-_\*FAQ gerado com base em comentários até o dia 21/04/2022._
+**`Q: A técnica de Transfrer Learning pode e é utilizada em outras aplicações que não sejam relacionadas a visão computacional? Por exemplo, ploblemas mais comuns de Machine Learning que possuem entrada dados tabulares.`**
+
+`R: Apesar de ser mais usado nessa área da Mineração de dados, técnicas de transfer learning são sim usadas em dados tabulares como dados escolares. É possível pesquisar em bibliotecas digitais como IEEE por esse tema central transfer learning e ir aprofundando em outras aplicações também.`
+
+_\*`FAQ gerado com base em comentários até o dia 30/11/2022.`_

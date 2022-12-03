@@ -12,7 +12,7 @@ R: Esse livro é possível achar em sua versão para o idioma inglês, pelo site
 
 **Q: O Link da máquina de seleções de tomate é privativo.**
 
-R: Este vídeo mostra a mesma ideia https://www.youtube.com/watch?v=aYQ\_5c6m8Is
+`R: Este vídeo mostra a mesma ideia https://www.youtube.com/watch?v=aYQ_5c6m8Is`
 
 **Q: Não estou conseguindo acesso ao papaer _Advances in natural language processing_ pois parece estar bloqueado exigindo algum tipo de subscrição.**
 
@@ -26,6 +26,18 @@ R: Estes conceitos na verdade foram citados com o objetivo de nos deixar cientes
 **Q: Qual profundidade eu preciso estudar a bibliografia complementar como os livros de Russel e Norvig para cumprir os requisitos desta disciplina?**
 
 R: Estudar os livros da disciplina sempre são grande valia mas as aulas dos professores cobrem os assuntos da disciplina e do exame. A literatura complementar serve também para aprofundar os seus conhecimentos em determinados tópicos que você viu na aula e que acha interessante para o seu contexto.
+
+**`Q: Durante a aula do professor Renan, ficou faltando a pasta 'data' para podermos trabalhar em casa.`**
+
+`R: Referente ao estudo sobre E-Commerce, os dados estão disponíveis em: https://www.kaggle.com/olistbr/brazilian-ecommerce . Você faz o download e cria uma pasta data com esses arquivos dentro.`
+
+**`Q: Sobre a parte em que o professor mostra o gráfico relacionando estados onde as pessoas moram com o índice de aprovação. Neste caso, São Paulo tem um maior índice de aprovação do que o estado de Roraima, no entanto, este índice de aprovação não pode ser influenciado somente pelo fato de que existem mais pessoas comprando em SP do que em RR? O que quero dizer é que não necessariamente o serviço em RR seja ruim, acontece que o número de pessoas que compram em RR é baixo. Por exemplo, existem 100 compradores em SP e 50 em RR, 15 pessoas em SP classificaram com notas ruins o serviço, sendo que 15 pessoas em RR também classificaram de maneira negativa, entretanto, em SP, ainda restam 85 pessoas que gostaram do serviço, sendo que em RR, restam apenas 35 que gostaram do serviço, ou seja, a nota está sendo alterada pela quantidade de compradores, e não pela eficácia do serviço.`**
+
+`R: O gráfico plotado pelo professor Renan é feito a partir da taxa de review_alto agrupado anteriormente por estado. Nesse caso ele faz uma proporção entre reviews altos para cada estado de acordo com as suas vendas.`
+
+**`Q: Bom dia, seria possível disponibilizar a mesma base que foi usada na aula do professor Renan?`**
+
+`R: A base de dados é mantida pela Kaggle que fez algumas atualizações e portanto pode apresentar algumas distorções de resultados. Infelizmente o Kaggle que mantém o dataset não disponibiliza nenhum histórico sobre essa base de dados. O que é possível é explorar projetos de outras pessoas anteriormente e verificar se elas dispõe o conjunto de dados inicial.`
 
 # **Ferramentas :**
 
@@ -151,4 +163,9 @@ Logo, agrupamento não deve ser a primeira tarefa a ser executada. O mais corret
 
 E, por fim, aplicar algoritmos de sumarização nos grupos gerados, filtrados por data.
 
-_\*FAQ gerado com base em comentários até o dia 21/04/2022._
+**`Q: No slide 45 do professor Michael há lista uma série de tarefas e classifica elas como possíveis ou não de serem feitas. Eu tenho impressão que atualmente (2022), duas tarefas já podem trocar de cor: "Write an intentionally funny story" e "Converse successfully with another person for an hour". O GPT-3 (lançado em 2020, junto com OpenAI API) consegue simular a produção de texto semelhante ao humano. Podemos observar como a tecnologia avança nos dias atuais.`**
+
+`R: Apesar de não serem conversas ou textos muito complexos e/ou totalmente coesos, podemos dizer que a tecnologia realmente avançou muito em tão pouco tempo a ponto dessas tarefas já estarem em estado avançado. Portanto, confere sim.`
+
+
+_\*`FAQ gerado com base em comentários até o dia 30/11/2022.`_

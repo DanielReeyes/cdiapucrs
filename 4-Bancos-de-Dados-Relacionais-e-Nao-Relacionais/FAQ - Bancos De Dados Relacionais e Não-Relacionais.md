@@ -78,4 +78,20 @@ R: O CockroachDB é um banco de dados SQL que pode escalar horizontalmente. Se v
 R: Sim, o Neo4J suporta em sua linguagem de modelagem e consulta a estrutura de grafos associada a uma Rede de Petri. Claro que estamos falando no modelo estático, sem a "execução" da rede, o que seria feito externamente ao banco de dados. Aqui há algumas referências que mencionam o uso do Neo4J para armazenamento de dados associados a Redes de Petri: https://www.hindawi.com/journals/misy/2021/5988742/
 https://mountainscholar.org/bitstream/handle/10217/195323/Basnet_colostate_0053N_15363.pdf
 
-_\*FAQ gerado com base em comentários até o dia 21/04/2022._
+**`Q: É melhor a criação de índices simples ou compostos ? Qual tem melhor performance no sgbd? Ex: Tenho uma tabela PESSOA (codigo, email, nome). Nesse caso sendo todos os 3 campos índices. É melhor fazer um índice composto com os 3 campos ou fazer 3 índices separados, ou tanto faz?`**
+
+`R: O índice irá ajudar a engine do BD a dividir os dados para procurar o mais rápido possível. Caso haja um índice muito específico ele irá percorrer toda a base de dados, implicando no tempo e latência de processamento.`
+
+**`Q: Sobre grafos, qual seria a diferença do short path para o minimum spanning tree?`**
+
+`R: Um spanning tree de um grafo não direcionado G é um subgrafo conectado que cobre todos os nós do grafo com o menor número possível de arestas. Em geral, um grafo pode ter mais de uma árvore geradora. Se o grafo for ponderado por arestas, podemos definir o peso de uma árvore geradora como a soma dos pesos de todas as suas arestas. Uma minimum spanning tree é uma árvore geradora cujo peso é o menor entre todas as árvores geradoras possíveis.No problema de shortest path tree, começamos com um nó de origem s.Para qualquer outro nó v no grafo G, o caminho mais curto entre s e v é um caminho tal que o peso total das arestas ao longo desse caminho é minimizado. Portanto, o objetivo do problema da árvore do caminho mais curto é encontrar uma árvore geradora tal que o caminho do nó fonte s para qualquer outro nó v seja o mais curto em G.`
+
+**`Q: Sobre a ótica da LGPD, qual tem sido a melhor forma de captar dados (variados) sendo que a Legislação que protege os dados pessoais diz que esta captação deve ser expressa por parte daquele que cede as informações pessoais, ou seja, devemos indicar expressamente a um órgão regulador (como a ANPD) em uma eventual auditoria como obtivemos aqueles dados pessoais (identificado ou identificável)?`**
+
+`R: Sob a ótica da LGPD, qualquer sistema de informação que armazene tipos de dados associados a informações pessoais deverá ter na sua interface gráfica de usuário a notificação expressa de que o usuário concorda com os termos de coleta de informação. Isso é usualmente feito através de uma caixa de seleção. Claro que nesses casos, as normas devem estar disponíveis para o acesso pelo usuário.`
+
+**`Q: No minuto 26.17 o professor Herwin comenta sobre gerenciadores NoSQL e as propriedades ACID. Pelo que há na documentacao, existem gerenciadores noSQL como o MongoDB que tem ACID. Segue o link: https://www.mongodb.com/basics/acid-transactions`**
+
+`R: O intuito do prof. Herwin era ser um pouco mais abrangente sobre o assunto. Como podes ver o MongoDB possui essa possibilidade mas como a própria documentação indica, de 80 a 90% dos casos não devemos usar o ACID para BD orientada a dados: "We estimate that 80%-90% of applications that leverage the document model will not need to utilize transactions in MongoDB. For the other 10%-20% of applications, multi-document transactions are available." De qualquer forma, obrigado pelo alerta e pelo compartilhamento deste conhecimento.`
+
+_\*FAQ gerado com base em comentários até o dia 30/11/2022._

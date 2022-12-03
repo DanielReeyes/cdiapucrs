@@ -86,4 +86,24 @@ Complementando: o y_true você já possui, pois é o array contendo os rótulos 
 
 R: Quanto a referência de Mitchell 1997 é: Mitchell, Tom M. 1997. Machine Learning. First. McGraw-Hill Science/Engineering/Math. (https://www.cin.ufpe.br/~cavmj/Machine%20-%20Learning%20-%20Tom%20Mitchell.pdf) A referência de Tan et al. 2006 é sobre o livro de Tan "Introduction to Data Mining" (https://www-users.cse.umn.edu/~kumar001/dmbook/sol.pdf)
 
-_\*FAQ gerado com base em comentários até o dia 21/04/2022._
+**`Q: A rede neural perceptron funciona apenas com atributos preditivos binários? Poderiam ser números reais?`**
+
+`R: O multi-layer perceptron pode ser utilizado para classificação (categorias, não necessariamente apenas binário) e também para regressão (predição de valores) MLPRegressor. É possível verificar como utilizar na documentação do Scikit Learn também.`
+
+**`Q: Por que "a gente quer" Theta transposto multiplicado por x?`**
+
+`R: Este assunto é discutido em todas as aulas de aprendizado baseado em otimização (aulas 4 a 6). Talvez o momento de explicação mais relevante seja na aula 4 (slides 63-73). Respondendo de maneira genérica, "Theta" representa os pesos de um modelo e "x" representa a entrada do modelo. É necessário transpor Theta para que a multiplicação entre matrizes/vetores seja válida.`
+
+**`Por que quando ela ultrapassa a margem não importa?`**
+
+`R: Considerando que a referência é Support Vector Machine (SVM), O conceito de margens (hard e soft) e vetores de suporte são explicados no início da aula 5. Estes conceitos são importantes para entender o porquê de instâncias que ultrapassam a margem (i.e., ficarem mais distantes da fronteira de decisão) "não importarem" durante o treinamento. O próximo conceito relevante, também explicado na aula 5, é a função de custo de SVMs, chamada de Hinge Loss. Esta função de custo utiliza um limiar para decidir o custo de uma instância de acordo com sua distância para com a margem. As instâncias que geram custo adicional no modelo são aquelas que estão dentro das margens (support vectors), e usamos um hiperparâmetro C para definir o quão intensamente o modelo deve ser penalizado por causa destas instâncias. Quanto maior C, mais penalizado o modelo será por erros de classificação (hard vs soft margin).`
+
+**`Qual a aplicação prática de uma fronteira de decisão?`**
+
+`R: O conceito de fronteira de decisão é abordado em praticamente todas as aulas, com exemplos práticos. No caso de redes neurais, por exemplo, uma fronteira de decisão é gerada através dos parâmetros do modelo e separa o espaço d-dimensional dos atributos entre classes pré-definidas. Uma fronteira de decisão é usada para decidir a qual classe cada instância pertence, de acordo com o modelo.`
+
+**`Q: Porque, na regularização do hiper parâmetro, ao aplicar o lambda não queremos regular o bias? Qual o exemplo prático que demonstra a razão pela qual eu não quereria ter isto? Na prática, como isto afeta a análise das classes?`**
+
+`R: O início da aula 4 contém uma explicação relevante para esta pergunta. No início desta aula, o professor Martin explica o impacto do bias e dos pesos usando a equação da reta como analogia. Não podemos regularizar os parâmetros livres (biases) pois eles dão liberdade para o modelo ajustar suas predições de maneira independente dos dados de entrada. Em regressão linear, por exemplo, isto nos permite "deslocar" a reta de predição para que ela não precise obrigatoriamente cruzar a origem do plano cartesiano (o que poderia ser ruim em determinados conjuntos de dados), facilitando o processo de aprendizagem do modelo. De maneira similar, em regressão logística os termos livres nos proporcionam a possibilidade de criar fronteiras de decisão que não cruzem a origem.`
+
+_\*`FAQ gerado com base em comentários até o dia 30/11/2022.`_

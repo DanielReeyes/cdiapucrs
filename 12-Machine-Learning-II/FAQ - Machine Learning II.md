@@ -25,4 +25,15 @@ Também na Aula 3, o professor Thomas traz alguns exemplos desse tipo de aprendi
 
 R: É preciso utilizar o comando de instalação antes da execução.'pip install scikit-learn-extra'
 
-_\*FAQ gerado com base em comentários até o dia 21/04/2022._
+**`Q: Sobre o conceito de validação externa, se há rotulos para confrontar o resultado, por que o aprendizado é não supervisionado? Não seria um problema de classificação supervisionado?`**
+
+`R: Na verdade a validação externa seria para saber identificar se o seu modelo criado está tendo capacidade de acertar os rótulos MAS os rótulos não estão INFLUENCIANDO o treinamento do modelo. Por tal motivo ele é um modelo de classificação não supervisionado.`
+
+**`Q: No vídeo da Parte 1, minuto 20:56, o professor comenta que o índice supervisionado pode ser usado para avaliar bases com rótulos. A minha dúvida é: se já existem os rótulos, por que usar um aprendizado não supervisionado (como o agrupamento), sendo que poderia ser utilizado um aprendizado supervisionado (classificação)? Qual seria o objetivo do uso do agrupamento ou qual o benefício de analisar desse modo?`**
+
+`R: É uma ótima pergunta. De fato os índices supervisionados necessitam de rótulos externos. Como visto em aula, existem alguns motivos para usar tais índices:`
+`- Quando está se criando algum algoritmo novo de agrupamento de dados e deseja-se comparar com resultados já conhecidos (e.g., tentando replicar um comportamento específico)`
+`- Quando se deseja avaliar que o agrupamento corresponde a algum rótulo já conhecido (e.g., no caso de segmentação de clientes, comparar com algum rótulo provido pelo departamento de Marketing).`
+`Na prática, acaba-se usando muito mais os índices internos por não termos rótulos. De igual forma, em alguns contextos muito específicos pode ser aplicado (benchmarking de algoritmos com bases conhecidas ou com rótulos que representam algo que o agrupamento vai substituir).`
+
+_\*`FAQ gerado com base em comentários até o dia 30/11/2022.`_
